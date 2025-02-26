@@ -60,7 +60,7 @@ public class App {
             System.out.println(evento.toString());
         /////// A QUI
         
-        ////// DA QUI CERCO DI PRENOTARE PER DEGLI EVENTI CHE FANNO RIFERIMENTO A CLASSI CON ATTRIBUTI DI TITOLO, DATA, ORA, POSTI A DISPOSIZIONE 
+        ////// DA QUI CERCO DI PRENOTARE PER DEGLI EVENTI CHE FANNO RIFERIMENTO A CLASSI (GIORGIA, MENGONI) CHE ESTENDONO CONCERTO MA CON ATTRIBUTI DI TITOLO, DATA, ORA, POSTI A DISPOSIZIONE 
         ///// FISSI E GIA' VALORIZZATI 
         /// DA QUI PER CLASSE GIORGIA (CONCERTO DI GIORGIA) 
             System.out.println("EVENTO CONCERTO DI GIORGIA");
@@ -104,7 +104,8 @@ public class App {
             System.out.println(giorgia.toString());
         /////// A QUI
         
-        /////// DA QUI PER MENGONI (CONCERTO DI MENGONI)
+        /////// DA QUI PER MENGONI (CONCERTO DI MENGONI) CHE FA RIFERIMENTO ADLLA CLASSE MENGONI CHE ESTENDE CONCERTO MA CON  MA CON ATTRIBUTI DI TITOLO, DATA, ORA, POSTI A DISPOSIZIONE 
+        ///// FISSI E GIA' VALORIZZATI 
             System.out.println("EVENTO CONCERTO DI MENGONI");
             System.out.println("Quante prenotazioni vuoi effettuare? ");
             int prenotazioniMengoni= scan.nextInt();
