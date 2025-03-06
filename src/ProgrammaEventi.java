@@ -44,7 +44,7 @@ data2 - titolo2
 */
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder(titolo + "\n");  // stanza di StringBuilder che è una classe utilizzata per creare stringhe di caratteri modificabili o modificabili
+        StringBuilder sb = new StringBuilder(titolo + "\n");  // istanza di StringBuilder che è una classe utilizzata per creare stringhe di caratteri modificabili
         eventi.sort((e1, e2) -> e1.getData().compareTo(e2.getData()));
         for (Evento evento : eventi) {
             sb.append(evento.toString()).append("\n");      

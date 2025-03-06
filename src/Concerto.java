@@ -31,7 +31,7 @@ public class Concerto extends Evento{
     }
 
     public String getDataOraFormattata() {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         return getData().format(formatter) + " " + ora.format(DateTimeFormatter.ofPattern("HH:mm"));
     }
 
